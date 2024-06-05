@@ -1,9 +1,9 @@
 export const NAV_LINKS = [
     { href:'/', key:'home',label:'Home'},
-    { href:'/', key:'home',label:'How Hlink work?'},
-    { href:'/', key:'home',label:'Services'},
-    { href:'/', key:'home',label:'Pricing'},
-    { href:'/', key:'home',label:'ContactUs'},
+    { href:'/', key:'ho',label:'How Hlink work?'},
+    { href:'/', key:'h',label:'Services'},
+    { href:'/', key:'hoe',label:'Pricing'},
+    { href:'/', key:'',label:'ContactUs'},
 ]
 
 export const SIDEBAR_LINKS1 = [
@@ -21,4 +21,19 @@ export const SIDEBAR_LINKS3 = [
     {icon: '/icons/profile.svg' , label: 'Mi perfil'},
     {icon: '/icons/settings.svg' , label: 'Configuracion'},
     {icon: '/icons/quit.svg' , label: 'Salir'}
+]
+
+export const PEOPLE_URL = [
+    '/person-1.png',
+    '/person-2.png',
+    '/person-3.png',
+    '/person-4.png',
+  ];
+
+export const CATEGORIES_FILTER = [
+    {name:'Desayunos',href:''},
+    {subcategory:'cafe con helado'},
+    {name:'Almuerzos',href:''},
+    {name:'Cena',href:''},
+    {name:'Postres',href:''},
 ]
